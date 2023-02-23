@@ -44,7 +44,8 @@
     NSString * htmlContent = [NSString stringWithContentsOfFile:htmlPath
                                                     encoding:NSUTF8StringEncoding
                                                        error:nil];
-    [dwebview loadHTMLString:htmlContent baseURL:baseURL];
+//    [dwebview loadHTMLString:htmlContent baseURL:baseURL];
+    [dwebview loadUrl:@"https://sim.sany.com.cn:943/parts-demand-h5/?source=crm-app"];
    
     // call javascript method
     [dwebview callHandler:@"addValue" arguments:@[@3,@4] completionHandler:^(NSNumber * value){
