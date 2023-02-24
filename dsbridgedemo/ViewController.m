@@ -45,8 +45,8 @@
                                                     encoding:NSUTF8StringEncoding
                                                        error:nil];
 //    [dwebview loadHTMLString:htmlContent baseURL:baseURL];
-    [dwebview loadUrl:@"https://sim.sany.com.cn:943/parts-demand-h5/?source=crm-app"];
-   
+//    [dwebview loadUrl:@"https://sim.sany.com.cn:943/parts-demand-h5/?source=crm-app"];
+    [dwebview loadUrl:@"https://xiangyuecn.gitee.io/recorder/app-support-sample/"];
     // call javascript method
     [dwebview callHandler:@"addValue" arguments:@[@3,@4] completionHandler:^(NSNumber * value){
         NSLog(@"%@",value);

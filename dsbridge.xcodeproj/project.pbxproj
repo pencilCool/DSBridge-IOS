@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EF57FD03DC072AB10487B60 /* Pods_dsbridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE635A3E70A34C7281C2B9 /* Pods_dsbridge.framework */; };
 		8142EA1E214212E700BEE5C0 /* JsApiTestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8142EA1D214212E700BEE5C0 /* JsApiTestSwift.swift */; };
 		815612EB2020304600C4F5CD /* InternalApis.m in Sources */ = {isa = PBXBuildFile; fileRef = 815612EA2020304600C4F5CD /* InternalApis.m */; };
 		815612EE202041B000C4F5CD /* DSCallInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 815612ED202041B000C4F5CD /* DSCallInfo.m */; };
@@ -28,6 +29,7 @@
 		81CFC8602029456C00CF9D83 /* readme-chs.md in Sources */ = {isa = PBXBuildFile; fileRef = 81CFC85F2029456C00CF9D83 /* readme-chs.md */; };
 		81CFC868202C42AA00CF9D83 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 81CFC867202C42AA00CF9D83 /* img */; };
 		81EBBFFF1EF24DDE00D1E4C1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 81EBBFFD1EF24DDE00D1E4C1 /* README.md */; };
+		9B5465379CB6E841551187B7 /* Pods_dsbridgedemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13983058DB8CED9FD5CF1419 /* Pods_dsbridgedemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13983058DB8CED9FD5CF1419 /* Pods_dsbridgedemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dsbridgedemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		242B3C370B7C54836CBA4A92 /* Pods-dsbridgedemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dsbridgedemo.debug.xcconfig"; path = "Target Support Files/Pods-dsbridgedemo/Pods-dsbridgedemo.debug.xcconfig"; sourceTree = "<group>"; };
+		467ADA179E46A591040E8497 /* Pods-dsbridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dsbridge.release.xcconfig"; path = "Target Support Files/Pods-dsbridge/Pods-dsbridge.release.xcconfig"; sourceTree = "<group>"; };
 		812F1D3B216F1F9D00B5BD0C /* publish.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = publish.sh; sourceTree = "<group>"; };
 		8142EA1C214212E600BEE5C0 /* dsbridgedemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dsbridgedemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		8142EA1D214212E700BEE5C0 /* JsApiTestSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsApiTestSwift.swift; sourceTree = "<group>"; };
@@ -89,6 +94,9 @@
 		81CFC867202C42AA00CF9D83 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
 		81EBBFF71EF246BD00D1E4C1 /* dsBridge.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsBridge.podspec; sourceTree = "<group>"; };
 		81EBBFFD1EF24DDE00D1E4C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84AE635A3E70A34C7281C2B9 /* Pods_dsbridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dsbridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D80EAE71BCCE1BC01A67E6A /* Pods-dsbridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dsbridge.debug.xcconfig"; path = "Target Support Files/Pods-dsbridge/Pods-dsbridge.debug.xcconfig"; sourceTree = "<group>"; };
+		FE23DFC5A4CB7AF80732BAAE /* Pods-dsbridgedemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dsbridgedemo.release.xcconfig"; path = "Target Support Files/Pods-dsbridgedemo/Pods-dsbridgedemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF57FD03DC072AB10487B60 /* Pods_dsbridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				818F0BCD1E18E6D200679925 /* libdsbridge.a in Frameworks */,
+				9B5465379CB6E841551187B7 /* Pods_dsbridgedemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +133,7 @@
 				818F0B9F1E18C0AA00679925 /* dsbridgedemo */,
 				818F0B8F1E18C08100679925 /* Products */,
 				81EBBFFA1EF24A7300D1E4C1 /* Frameworks */,
+				9B496D5AF06F8A34473211C1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,8 +196,22 @@
 		81EBBFFA1EF24A7300D1E4C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84AE635A3E70A34C7281C2B9 /* Pods_dsbridge.framework */,
+				13983058DB8CED9FD5CF1419 /* Pods_dsbridgedemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B496D5AF06F8A34473211C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D80EAE71BCCE1BC01A67E6A /* Pods-dsbridge.debug.xcconfig */,
+				467ADA179E46A591040E8497 /* Pods-dsbridge.release.xcconfig */,
+				242B3C370B7C54836CBA4A92 /* Pods-dsbridgedemo.debug.xcconfig */,
+				FE23DFC5A4CB7AF80732BAAE /* Pods-dsbridgedemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 818F0B971E18C08100679925 /* Build configuration list for PBXNativeTarget "dsbridge" */;
 			buildPhases = (
+				D259981C71C7FB78C0573F3C /* [CP] Check Pods Manifest.lock */,
 				818F0B8A1E18C08100679925 /* Sources */,
 				818F0B8B1E18C08100679925 /* Frameworks */,
 				818F0B8C1E18C08100679925 /* CopyFiles */,
@@ -213,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 818F0BB21E18C0AA00679925 /* Build configuration list for PBXNativeTarget "dsbridgedemo" */;
 			buildPhases = (
+				BB94CF4CC31C613F5303A5FB /* [CP] Check Pods Manifest.lock */,
 				818F0B9A1E18C0AA00679925 /* Sources */,
 				818F0B9B1E18C0AA00679925 /* Frameworks */,
 				818F0B9C1E18C0AA00679925 /* Resources */,
+				0293B42D8B15B15B66528B25 /* [CP] Copy Pods Resources */,
+				112F0A46DDAF24EC6DDF304B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,6 +311,111 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0293B42D8B15B15B66528B25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dsbridgedemo/Pods-dsbridgedemo-resources.sh",
+				"${PODS_ROOT}/BaiduNaviKit/BaiduNaviKit/MapSDK/mapapi.bundle",
+				"${PODS_ROOT}/BaiduNaviKit/BaiduNaviKit/NaviSDK/resource/baiduNaviSDK.bundle",
+				"${PODS_ROOT}/BaiduNaviKit/BaiduNaviKit/NaviSDK/resource/mode.bundle",
+				"${PODS_ROOT}/BaiduNaviKit/BaiduNaviKit/NaviSDK/resource/default.metallib",
+				"${PODS_ROOT}/BaiduNaviKit/BaiduNaviKit/NaviSDK/resource/baiduTTSSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DeviceUtil/DeviceUtil.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/XLPagerTabStrip/XLPagerTabStrip.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/XLPagerTabStripOC/XLPagerTabStripOC.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baiduNaviSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mode.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/default.metallib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baiduTTSSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DeviceUtil.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XLPagerTabStrip.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XLPagerTabStripOC.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dsbridgedemo/Pods-dsbridgedemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		112F0A46DDAF24EC6DDF304B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dsbridgedemo/Pods-dsbridgedemo-frameworks.sh",
+				"${PODS_ROOT}/BaiduTraceKit-Lite/BaiduTraceKit-Lite/BaiduTraceSDK.framework",
+				"${PODS_ROOT}/ijkplayerssl/IJKMediaFrameworkWithSSL.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaiduTraceSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IJKMediaFrameworkWithSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dsbridgedemo/Pods-dsbridgedemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB94CF4CC31C613F5303A5FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dsbridgedemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D259981C71C7FB78C0573F3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dsbridge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		818F0B8A1E18C08100679925 /* Sources */ = {
@@ -380,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -423,7 +557,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -434,6 +568,7 @@
 		};
 		818F0B981E18C08100679925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D80EAE71BCCE1BC01A67E6A /* Pods-dsbridge.debug.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
@@ -445,6 +580,7 @@
 		};
 		818F0B991E18C08100679925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467ADA179E46A591040E8497 /* Pods-dsbridge.release.xcconfig */;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -457,6 +593,7 @@
 		};
 		818F0BB31E18C0AA00679925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242B3C370B7C54836CBA4A92 /* Pods-dsbridgedemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -464,6 +601,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WN86XXW7R7;
 				INFOPLIST_FILE = dsbridgedemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wendu.dsbridgedemo.xx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,6 +613,7 @@
 		};
 		818F0BB41E18C0AA00679925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE23DFC5A4CB7AF80732BAAE /* Pods-dsbridgedemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -482,6 +621,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WN86XXW7R7;
 				INFOPLIST_FILE = dsbridgedemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wendu.dsbridgedemo.xx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
